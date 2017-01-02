@@ -1,10 +1,15 @@
 ( function () {
-	for (var i in localStorage) break;
-	if (!i) {
+	var val = false;
+	for (var i in localStorage) {
+		var val = localStorage.getItem(i);
+		if (val && val !== null) break;//В FF null это true
+	}
+	if (!val) {
 		localStorage.checkversion_time = window.checkversion.time;
 		localStorage.checkversion_name = window.checkversion.name;
 		return; //Первый заход
 	}
+
 	var destroed = (!localStorage.checkversion_time||!localStorage.checkversion_name);
 
 	var oldhtml = false;

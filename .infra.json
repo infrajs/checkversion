@@ -1,0 +1,5 @@
+{
+	"pub":["name"],
+	"name":"1.0.0 - Автоматическая версия проекта от infrajs/checkversion",
+	"require":"infra.php"
+}

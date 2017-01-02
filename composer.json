@@ -1,0 +1,11 @@
+{
+	"name":"infrajs/checkversion",
+	"homepage":"https://github.com/infrajs/checkversion",
+	"license": "GPL3",
+	"require":{
+		"infrajs/event":"~1",
+		"infrajs/view":"~1",
+		"infrajs/load":"~1",
+		"infrajs/config":"~1"
+	}
+}

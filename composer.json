@@ -1,7 +1,6 @@
 {
 	"name":"infrajs/checkversion",
 	"homepage":"https://github.com/infrajs/checkversion",
-	"license": "GPL3",
 	"require":{
 		"matthiasmullie/minify":"~1",
 		"infrajs/event":"~1",

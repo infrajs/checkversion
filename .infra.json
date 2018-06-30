@@ -1,5 +1,7 @@
 {
 	"pub":["name"],
 	"name":"1.0.0 - Автоматическая версия проекта от infrajs/checkversion",
+	"dependencies":"event",
+	"js":"infra.js",
 	"require":"infra.php"
 }
